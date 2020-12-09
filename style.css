@@ -1,0 +1,51 @@
+
+.picture{
+
+width: 100%;	
+height: 400px;
+left: 1px;
+top: 78px;
+}
+
+.logotip{
+	margin-left: 300px;
+}
+
+.caruselka{
+	height: 1050px;
+}
+
+.zagolovok{
+	font-size: 30px;
+	margin-left: 40px;
+	color:white;
+}
+
+h4{
+	color:blue;
+	margin-left: 20px;
+}
+.pp{
+	background-color:DeepSkyBlue;
+	margin-left: 20px;
+}
+
+.twiter{
+	color:DeepSkyBlue;
+}
+
+.otstup{
+	margin-top: 50px;
+}
+
+.signup{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  float: left;
+}

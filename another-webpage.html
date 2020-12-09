@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset=utf-8">
+	<title>another-webpage</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="container-fluid">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <a class="zagolovok" href="index.html">Главная</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="zagolovok" href="#">Адресса магазинов <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item active">
+        <a class="zagolovok" href="#">Выбор товара <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="zagolovok" href="#">Регистрация <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+ 
+ 
+ <div class="otstup">
+ <div class="row">
+ 
+ <div class="col-sm-6">
+<form class="modal-content" action="/action_page.php">
+  <div class="form-group">
+	 <div class="twiter">
+    <label for="email">Укажите ваш Email адресс</label>
+	</div>
+    <input type="text" placeholder="name@example.com" class="form-control" name="email" required>
+  </div>
+  <div class="form-group">
+  <div class="twiter">
+    <label for="fio">Укажите ваше имя</label>
+	</div>
+    <input type="text" class="form-control" placeholder="ваше имя" name="fio" required>
+  </div>
+  <div class="form-group">
+	 <div class="twiter">
+    <label for="psw">Укажите ваш возраст</label>
+	</div>
+    <input type="text"  class="form-control" name="age" required>
+  </div>
+  <div class="form-group">
+	 <div class="twiter">
+    <label for="psw">Укажите ваш пароль</label>
+	</div>
+    <input type="password"  class="form-control" name="psw" required>
+  </div>
+ <div class="form-group">
+ 
+    <label for="exampleFormControlFile1">Загрузите свой аватар</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+  <button type="submit" class="signup">Регистрация</button>
+  Отправить
+</button>
+</form>
+</div>
+
+<div class="col-sm-6">
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action">Список пользователей онлайн</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-primary">@Первый пользователь</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">@Второй пользователь</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">@Третий пользователь</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-danger">@Четвертый пользователь</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-warning">@Пятый пользователь</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-info">@Шестой пользователь</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-light">@Седьмой пользователь</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-dark">@Восьмой пользователь</a>
+</div>
+
+</div>
+</div>
+
+    </div>
+	</div>
+	<script src="site.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+<html>
